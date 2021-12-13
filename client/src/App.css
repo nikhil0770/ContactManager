@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+}
+.signin {
+  display: flex;
+}
+.signin_card {
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+.button_class {
+  margin: 25px auto 15px auto;
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  background-color: rgb(238, 238, 238) !important;
+  color: black !important;
+}
+
+.button_class:hover {
+  background-color: blue !important;
+  color: white !important;
+}
+
+.input-field input[type="email"]:focus {
+  border-bottom: 1px solid blue !important;
+  box-shadow: 0 1px 0 0 blue !important;
+}
+.input-field input[type="password"]:focus {
+  border-bottom: 1px solid blue !important;
+  box-shadow: 0 1px 0 0 blue !important;
+}
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid blue !important;
+  box-shadow: 0 1px 0 0 blue !important;
+}
+.input-field input[type="number"]:focus {
+  border-bottom: 1px solid blue !important;
+  box-shadow: 0 1px 0 0 blue !important;
+}
+.addcontact {
+  max-width: 400px;
+  margin: 50px auto;
+}
+.header {
+  background-color: black;
+  padding-right: 5px;
+}
+.logo {
+  font-size: medium !important;
+  max-width: 200px;
+}
+
+.button_header {
+  background-color: white;
+  color: black;
+}
+
+.button_header:hover {
+  background-color: red;
+  color: white;
+}
+
+.buttonsroute {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contactcard {
+  min-width: 280px;
+  max-width: 600px;
+  padding: 10px;
+}
+
+.contact_component {
+  margin: 15px auto;
+  padding: 5px;
+}
+.contact_component > h5 {
+  margin-bottom: 20px;
+}
+.modify {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn_edit > button {
+  display: flex;
+  align-items: center;
+  font-size: smaller;
+  height: 25px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.favicon {
+  margin-top: 3px;
+}
+.favicon:hover {
+  cursor: pointer;
+}
+.profilecss {
+  text-align: center;
+  max-width: 300px;
+}
+.profile_card {
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
